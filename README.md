@@ -1,6 +1,6 @@
 ## GE MRI research
 - Documentations (How-to)
-  - Diffusion gradient directions/table (muti-shell diffusion MRI)
+  - Diffusion gradient directions (muti-shell diffusion MRI) (DICOM tags)
   - How to get a B0 fieldmap
   - How to get two sets of spin-echo EPI with opposite phase-encoding polarity (AP/PA) 
     - a.k.a “SpinEchoFieldMap” for offline distortion correction
