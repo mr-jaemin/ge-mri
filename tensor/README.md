@@ -6,3 +6,4 @@ I have consolidated [information regarding GE diffusion gradient directions (ten
 - [tensor4321](https://github.com/mr-jaemin/ge-mri/raw/main/tensor/tensor4321.dat): ABCD (Adolescent Brain Cognitive Development)
 - [tensor521](https://github.com/mr-jaemin/ge-mri/raw/main/tensor/tensor521.dat): UK Biobank
 - [tensor1127](https://github.com/mr-jaemin/ge-mri/raw/main/tensor/tensor1127.dat): ADNI-3 Advanced
+- [tensor1225](https://github.com/mr-jaemin/ge-mri/raw/main/tensor/tensor1225.dat): HCP Lifespan
