@@ -1,6 +1,12 @@
 # GE DICOM examplers
 
-## Acceleration
+## GE Acceleration BIDS validation dataset
+
+[e10_exam12_T1_MPRAGE_Acceleration_t17.tar (371.4MB)](https://gehealthcare-amer.my.salesforce.com/sfc/p/30000001F94O/a/3a000000YKJV/4x7le_OZaIGqLKUzIh4JlTQuKZxI0eIv0relvnX9KVE)
+
+![Screen Shot 2023-02-01 at 9 27 05 AM](https://user-images.githubusercontent.com/72111485/216192223-479acb29-6f76-4027-b681-7b1d369f0e57.png)
+
+
 | Folder                 | Series No. | Acceleration Phase | Acceleration Slice | Acceleration HyperSense |
 | ---------------------- | ---------- | ------------------ | ------------------ | ----------------------- |
 | 02_T1_MPRAGE           | 2          | 1                  | 1                  | 1                       |
