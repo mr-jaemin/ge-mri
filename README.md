@@ -14,4 +14,4 @@
 - [GE DICOM tags & BIDS](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
   - [Acceleration](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#acceleration)
 - [GE DICOM examplers](https://github.com/mr-jaemin/ge-mri/tree/main/data)
-  - [GE Acceleration BIDS validation dataset](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
+  - [GE MR Acceleration BIDS validation dataset](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
