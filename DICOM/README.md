@@ -1,4 +1,4 @@
-# GE DICOM tags
+# GE MR DICOM tags
 
 ## Acceleration
 PSD Acceleration GUI
