@@ -16,11 +16,11 @@ With HyperBand Optoin:
 
 | Attribute Name                | Tag         | VR | Example            | Explanation                        | BIDS                              |
 | ----------------------------- | ----------- | -- | ------------------ | ---------------------------------- | --------------------------------- |
-| Asset R Factors               | (0043,1083) | DS | [0.5\\0.5]         | The reciprocal of 1st: Phase       | ParallelReductionFactorInPlane    |
-|                               |             |    |                    | The reciprocal of 2nd: Slice       | ParallelReductionFactorOutOfPlane |
-| Multiband Parameters          | (0043,10B6) | LO | [2\\4\\19\\\\\\\\] | 1st: Multiband factor              | MultibandAccelerationFactor       |
+| Asset R Factors               | (0043,1083) | DS | [0.5\\0.5]         | The reciprocal of 1st: Phase  Acceleration     | [ParallelReductionFactorInPlane](https://bids-specification.readthedocs.io/en/latest/glossary.html#objects.metadata.ParallelReductionFactorInPlane)    |
+|                               |             |    |                    | The reciprocal of 2nd: Slice Acceleration      | [ParallelReductionFactorOutOfPlane](https://bids-specification.readthedocs.io/en/latest/glossary.html#objects.metadata.ParallelReductionFactorOutOfPlane) |
+| Multiband Parameters          | (0043,10B6) | LO | [2\\4\\19\\\\\\\\] | 1st: Multiband factor              | [MultibandAccelerationFactor](https://bids-specification.readthedocs.io/en/latest/glossary.html#objects.metadata.MultibandAccelerationFactor)       |
 |                               |             |    |                    | 2nd: Slice FOV shift factor        |                                   |
 |                               |             |    |                    | 3rd: Calbiration method            |                                   |
-| Compressed Sensing Parameters | (0043,10B7) | LO | [1.24\\1\\10\\0]   | 1st: Compressed sensing(CS) factor |
-|                               |             |    |                    | 2nd: Compressed sensing Flag       |
+| Compressed Sensing Parameters | (0043,10B7) | LO | [1.24\\1\\10\\0]   | 1st: Compressed Sensing(CS) factor |
+|                               |             |    |                    | 2nd: CS Flag                       |
 |                               |             |    |                    | 3rd: CS data consistency paramter  |
