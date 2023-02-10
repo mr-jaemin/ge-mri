@@ -1,5 +1,17 @@
 # GE MR DICOM tags
 
+## AIR Recon DL
+PSD AIR Recon DL GUI
+
+![Screen Shot 2023-02-10 at 3 28 41 PM](https://user-images.githubusercontent.com/72111485/218191319-2959b15a-1be9-4487-a358-89af53e63fc7.png)
+
+| Attribute Name    | Tag         | VR | Example        | Explanation                | BIDS |
+| ----------------- | ----------- | -- | -------------- | -------------------------- | ---- |
+| Recon DL Strength | (0043,10CA) | LO | [0.75\\\\High] | Off: The tag doesn't exist |      |
+|                   |             |    |                | High: [0.75\\\\High]       |      |
+|                   |             |    |                | Medium: [0.5\\\\Medium]    |      |
+|                   |             |    |                | Low: [0.3\\\\Low]          |      |
+
 ## Acceleration
 PSD Acceleration GUI
 
