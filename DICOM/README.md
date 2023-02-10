@@ -7,10 +7,10 @@ PSD AIR Recon DL GUI
 
 | Attribute Name    | Tag         | VR | Example        | Explanation                | BIDS |
 | ----------------- | ----------- | -- | -------------- | -------------------------- | ---- |
-| Recon DL Strength | (0043,10CA) | LO | [0.75\\\\High] | Off: The tag doesn't exist |      |
-|                   |             |    |                | High: [0.75\\\\High]       |      |
-|                   |             |    |                | Medium: [0.5\\\\Medium]    |      |
-|                   |             |    |                | Low: [0.3\\\\Low]          |      |
+| Recon DL Strength | (0043,10CA) | LO | [0.75\\High] | Off: The tag doesn't exist |      |
+|                   |             |    |                | High: [0.75\\High]       |      |
+|                   |             |    |                | Medium: [0.5\\Medium]    |      |
+|                   |             |    |                | Low: [0.3\\Low]          |      |
 
 ## Acceleration
 PSD Acceleration GUI
