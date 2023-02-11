@@ -1,6 +1,14 @@
-# GE DICOM examplers
+# GE MR DICOM examplers
 
-## GE Acceleration BIDS validation dataset
+## GE AIR Recon DL  
+
+[3D Ax T1 MPRAGE with DL High sample (145 MB)](https://gehealthcare-amer.my.salesforce.com/sfc/p/30000001F94O/a/3a000000YKLC/hc86mVNJvwRToWDW.2iHxI8zxRLKLmxpuXIZumsUtM4)
+
+The relavant [DICOM tag](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl) is described in [this page](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl)
+
+![AIR_Recon_DL_T1_MPRAGE_exam7892](https://user-images.githubusercontent.com/72111485/218240653-0ba91254-a60b-416e-ad09-cdcbbb729fef.png)
+
+## GE MR Acceleration BIDS validation dataset
 
 [e10_exam12_T1_MPRAGE_Acceleration_t17.tar (371.4MB) (dummy dataset)](https://gehealthcare-amer.my.salesforce.com/sfc/p/30000001F94O/a/3a000000YKJV/4x7le_OZaIGqLKUzIh4JlTQuKZxI0eIv0relvnX9KVE)
 
