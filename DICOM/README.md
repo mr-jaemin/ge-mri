@@ -25,6 +25,7 @@ With HyperBand Optoin:
 
 ![Screen Shot 2023-02-01 at 3 47 18 PM](https://user-images.githubusercontent.com/72111485/216160162-33b9ed66-d5ad-4181-8945-d5d9d4012f18.png)
 
+[GE Acceleration validattion DICOM sample (dummy dataset)](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
 
 | Attribute Name                | Tag         | VR | Example            | Explanation                        | BIDS                              |
 | ----------------------------- | ----------- | -- | ------------------ | ---------------------------------- | --------------------------------- |
