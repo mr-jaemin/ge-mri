@@ -4,7 +4,7 @@
 
 [e10_exam12_T1_MPRAGE_Acceleration_t17.tar (371.4MB) (dummy dataset)](https://gehealthcare-amer.my.salesforce.com/sfc/p/30000001F94O/a/3a000000YKJV/4x7le_OZaIGqLKUzIh4JlTQuKZxI0eIv0relvnX9KVE)
 
-The relavant [DICOM tags and BIDS metadata fields](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM) (stored in sidecar JSON files) are described in [this page](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
+The relavant [DICOM tags and BIDS metadata fields](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#acceleration) (stored in sidecar JSON files) are described in [this page](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#acceleration)
 
 ![Screen Shot 2023-02-01 at 9 27 05 AM](https://user-images.githubusercontent.com/72111485/216192223-479acb29-6f76-4027-b681-7b1d369f0e57.png)
 
