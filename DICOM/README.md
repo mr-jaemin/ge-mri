@@ -5,7 +5,7 @@ PSD AIR Recon DL GUI
 
 ![Screen Shot 2023-02-10 at 3 28 41 PM](https://user-images.githubusercontent.com/72111485/218191319-2959b15a-1be9-4487-a358-89af53e63fc7.png)
 
-[3D Ax T1 MPRAGE DICOM sample as well as dummy datasets](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
+[3D Ax T1 MPRAGE DICOM brain & dummy datasets](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
 
 | Attribute Name    | Tag         | VR | Example        | Explanation                | BIDS |
 | ----------------- | ----------- | -- | -------------- | -------------------------- | ---- |
