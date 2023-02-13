@@ -5,11 +5,11 @@ PSD AIR Recon DL GUI
 
 ![Screen Shot 2023-02-10 at 3 28 41 PM](https://user-images.githubusercontent.com/72111485/218191319-2959b15a-1be9-4487-a358-89af53e63fc7.png)
 
-[3D Ax T1 MPRAGE DICOM brain & dummy datasets](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
+[GE AIR Recon DL DICOM sample (brain & dummy datasets)](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
 
 | Attribute Name    | Tag         | VR | Example        | Explanation                | BIDS |
 | ----------------- | ----------- | -- | -------------- | -------------------------- | ---- |
-| Recon DL Strength | (0043,10CA) | LO | [0.75\\High] | Off: The tag doesn't exist |      |
+| Recon DL Strength | (0043,10CA) | LO | [0.75\\High] | Off: The tag doesn't exist |  [See discussion #1407](https://github.com/bids-standard/bids-specification/issues/1407)    |
 |                   |             |    |                | High: [0.75\\High]       |      |
 |                   |             |    |                | Medium: [0.5\\Medium]    |      |
 |                   |             |    |                | Low: [0.3\\Low]          |      |
@@ -36,6 +36,6 @@ With HyperBand Optoin:
 | Multiband Parameters          | (0043,10B6) | LO | [2\\4\\19\\\\\\\\] | 1st: Multiband factor              | [MultibandAccelerationFactor](https://bids-specification.readthedocs.io/en/latest/glossary.html#objects.metadata.MultibandAccelerationFactor)       |
 |                               |             |    |                    | 2nd: Slice FOV shift factor        |                                   |
 |                               |             |    |                    | 3rd: Calbiration method            |                                   |
-| Compressed Sensing Parameters | (0043,10B7) | LO | [1.24\\1\\10\\0]   | 1st: Compressed Sensing(CS) factor |
+| Compressed Sensing Parameters | (0043,10B7) | LO | [1.24\\1\\10\\0]   | 1st: Compressed Sensing(CS) factor |[See discussion #1407](https://github.com/bids-standard/bids-specification/issues/1407)
 |                               |             |    |                    | 2nd: CS Flag                       |
 |                               |             |    |                    | 3rd: CS data consistency paramter  |
