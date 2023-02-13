@@ -4,9 +4,29 @@
 
 [3D Ax T1 MPRAGE with DL High sample (145 MB)](https://gehealthcare-amer.my.salesforce.com/sfc/p/30000001F94O/a/3a000000YKLC/hc86mVNJvwRToWDW.2iHxI8zxRLKLmxpuXIZumsUtM4)
 
+![AIR_Recon_DL_T1_MPRAGE_exam7892](https://user-images.githubusercontent.com/72111485/218240653-0ba91254-a60b-416e-ad09-cdcbbb729fef.png)
+
 The relavant [DICOM tag](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl) is described in [this page](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl)
 
-![AIR_Recon_DL_T1_MPRAGE_exam7892](https://user-images.githubusercontent.com/72111485/218240653-0ba91254-a60b-416e-ad09-cdcbbb729fef.png)
+![Screen Shot 2023-02-10 at 3 28 41 PM](https://user-images.githubusercontent.com/72111485/218191319-2959b15a-1be9-4487-a358-89af53e63fc7.png)
+
+[AIR_Recon_DL_images_exam10_target.tar (362.4MB) (dummy dataset)](https://gehealthcare-amer.my.salesforce.com/sfc/p/30000001F94O/a/3a000000YKLM/z_IPNy.idRXUugGO1P4sPjMO5BEcWGOPaX_ntc7MgT4)
+
+| Folder                      | Series No. | Recon DL Stregth | Type      |
+| --------------------------- | ---------- | ---------------- | --------- |
+| 02_3D_Ax_T1_MP_RAGE_DL_Off  | 2          | Off              | 3D        |
+| 04_Ax_DWI_ALL_DL_High       | 4          | High             | 2D        |
+| 05_Ax_DWI_ALL_DL_Medium     | 5          | Medium           | 2D        |
+| 06_Ax_DWI_ALL_DL_Low        | 6          | Low              | 2D        |
+| 07_Ax_DWI_ALL_DL_Off        | 7          | Off              | 2D        |
+| 08_3D_Ax_T1_MP_RAGE_DL_High | 8          | High             | 3D        |
+| 09_DTI_DL_High              | 9          | High             | 2D        |
+| 10_DTI_DL_Off               | 10         | Off              | 2D        |
+| 11_Ax_T2_PROPELLER_DL_Off   | 11         | Off              | 2D        |
+| 12_Ax_T2_PROPELLER_DL_High  | 12         | High             | 2D        |
+| 13_Ax_T2_FLAIR_FS_DL_High   | 13         | High             | 2D        |
+| 14_Ax_T2_FLAIR_FS_DL_Off    | 14         | Off              | 2D        |
+| 15_Sag_PD_frFSE_DL_High     | 15         | High             | 2D        |
 
 ## GE MR Acceleration BIDS validation dataset
 
