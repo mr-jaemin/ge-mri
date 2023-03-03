@@ -12,6 +12,8 @@
   - [ADNI3 Advanced (tensor1127.dat)](https://github.com/mr-jaemin/ge-mri/raw/main/tensor/tensor1127.dat)
   - [HCP Lifespan (tensor1225.dat)](https://github.com/mr-jaemin/ge-mri/raw/main/tensor/tensor1225.dat)
 - [GE MR DICOM tags & BIDS](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
+  - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl)   
   - [Acceleration](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#acceleration)
 - [GE MR DICOM examplers](https://github.com/mr-jaemin/ge-mri/tree/main/data)
+  - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
   - [Acceleration BIDS validation dataset](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
