@@ -17,3 +17,7 @@
 - [GE MR DICOM examplers](https://github.com/mr-jaemin/ge-mri/tree/main/data)
   - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
   - [Acceleration BIDS validation dataset](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
+
+## Change List related to GE MR
+- [dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
+
