@@ -17,12 +17,12 @@
   - v1.0.20230623+
   - dissociate REVSLICEORDER from SLICEORDER (#723)
   - [Code changes](https://github.com/rordenlab/dcm2niix/commit/14c66a1fd2a80c1346d0fccb08db14ecc263db66)
-- [New BIDS for AIR Recon DL: DeepLearning, DeepLearningDetails]
-  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/19738600abc66f2107a57161527fa7ecc5347072)
-  - [BIDS discussion for Deep Learning and Compressed Sensing](https://github.com/bids-standard/bids-specification/issues/1407)
+- New BIDS for AIR Recon DL: DeepLearning, DeepLearningDetails
   - [GE MR DICOM tags: AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
   - [GE MR DICOM tags: Acceleration](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
   - [Sample DICOM](https://github.com/mr-jaemin/ge-mri/tree/main/data)
+  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/19738600abc66f2107a57161527fa7ecc5347072)
+  - [BIDS discussion for Deep Learning and Compressed Sensing](https://github.com/bids-standard/bids-specification/issues/1407)
 - [New BIDS for HyperSense: CompressedSensingFactor](https://github.com/rordenlab/dcm2niix/commit/19738600abc66f2107a57161527fa7ecc5347072)
 - Improve detection of GE isotropic diffusion
   - [Issue#690](https://github.com/rordenlab/dcm2niix/issues/690)
