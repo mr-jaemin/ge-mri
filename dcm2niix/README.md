@@ -40,7 +40,7 @@ This page is intended for providing consolidated change list in [dcm2niix](https
   - [Code changes](https://github.com/rordenlab/dcm2niix/commit/e53c23038a1d137712c9ed3d8809c5be6baffb0a)
 - [GE Diffusion SliceTiming](https://github.com/rordenlab/dcm2niix/issues/635)
   - v1.0.20220915+
-  - [Improved GE software version reading (version 30)[https://github.com/rordenlab/dcm2niix/issues/634]
+  - [Improved GE software version reading (version 30)](https://github.com/rordenlab/dcm2niix/issues/634)
   - Added SliceTiming for GE Diffusion
   - New keys added in JSON for GE diffusion:
     - NumberOfDiffusionDirectionGE
