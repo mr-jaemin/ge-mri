@@ -40,14 +40,15 @@ This page is intended for providing consolidated change list in [dcm2niix](https
   - [Code changes](https://github.com/rordenlab/dcm2niix/commit/e53c23038a1d137712c9ed3d8809c5be6baffb0a)
 - [GE Diffusion SliceTiming](https://github.com/rordenlab/dcm2niix/issues/635)
   - v1.0.20220915+
-  - [Improved GE software version reading (version 30)](https://github.com/rordenlab/dcm2niix/issues/634)
   - Added SliceTiming for GE Diffusion
   - New keys added in JSON for GE diffusion:
-    - NumberOfDiffusionDirectionGE
-    - NumberOfDiffusionT2GE
-    - TensorFileNumberGE
-    - DiffGradientCyclingGE
+    - `NumberOfDiffusionDirectionGE`
+    - `NumberOfDiffusionT2GE`
+    - `TensorFileNumberGE`
+    - `DiffGradientCyclingGE`
   - [Code changes](https://github.com/rordenlab/dcm2niix/pull/636/)
+- [Improved GE software version reading (version 30)](https://github.com/rordenlab/dcm2niix/issues/634)
+  - v1.0.20220915+ 
 ### [Stable releases: version 20-July-2022](https://github.com/rordenlab/dcm2niix/releases/tag/v1.0.20220720)
 - [GE Direct field mapping deltaTE (or TE1/TE2)](https://github.com/rordenlab/dcm2niix/issues/617)
   - Adding `EchoTime1` and `EchoTime2` to BIDS JSON
