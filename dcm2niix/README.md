@@ -2,7 +2,7 @@
 - [Support GE feet first DTI bvec](https://github.com/rordenlab/dcm2niix/issues/737)
   - v1.0.20230807+
   - [Code changes](https://github.com/rordenlab/dcm2niix/pull/736)
-- [Improve GE fieldmap hangle for 3db0map and B0map](https://github.com/rordenlab/dcm2niix/pull/741)
+- [Improve GE fieldmap (3db0map and B0map)](https://github.com/rordenlab/dcm2niix/pull/741)
   - v1.0.20230807+
 - [Improve GE BIDS autodetection](https://github.com/rordenlab/dcm2niix/commit/459fed06a2fedea9bcace006b93594f8c1cc00dd)
   - v1.0.20230731+
