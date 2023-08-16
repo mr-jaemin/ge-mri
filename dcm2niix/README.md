@@ -1,4 +1,5 @@
-## dcm2niix updates related to GE MR
+## `dcm2niix` change list related to GE MR
+This page is intended for providing consolidated change list in [dcm2niix](https://github.com/rordenlab/dcm2niix) for GE MR users from newest to oldest, relative to stable releases.
 - [Support GE feet first DTI bvec](https://github.com/rordenlab/dcm2niix/issues/737)
   - v1.0.20230807+
   - [Code changes](https://github.com/rordenlab/dcm2niix/pull/736)
