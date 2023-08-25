@@ -1,5 +1,16 @@
 ## `dcm2niix` change list related to GE MR
 This page is intended for providing consolidated change list in [dcm2niix](https://github.com/rordenlab/dcm2niix) for GE MR users from newest to oldest, relative to stable releases.
+### [The latest stable release version (download)](https://github.com/rordenlab/dcm2niix/releases): 11-April-2023
+The above link provides pre-compiled stable release version of dcm2niix on Winodows, MacOS, Linux
+### Build the development branch
+This is the simplest way to compile dcm2niix on a Linux or MacOS.
+```
+git clone --branch development https://github.com/rordenlab/dcm2niix.git dcm2niix_dev
+cd dcm2niix_dev/console
+make
+./dcm2niix
+```
+### Change list for GE MR users from newest to oldest, relative to stable releases.
 - [Support GE feet first DTI bvec](https://github.com/rordenlab/dcm2niix/issues/737)
   - v1.0.20230807+
   - [Code changes](https://github.com/rordenlab/dcm2niix/pull/736)
