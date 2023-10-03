@@ -1,6 +1,6 @@
 ## GE MRI research
 - Documentations (How-to)
-  - [Diffusion gradient directions (muti-shell diffusion MRI) (DICOM tags)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_tensor.pdf)
+  - [GE Diffusion gradient directions (muti-shell diffusion MRI) (DICOM tags)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_tensor.pdf)
   - [GE fMRI Slice Timing information](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_fMRI_Slice_Timing_Info_Rev5.pdf)
   - [How to get a B0 fieldmap](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_B0Mapping_Info.pdf)
     - [B0_Mapping_Protocol (MR29.1)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/B0_Mapping_PSDs_MR29.1_Protocols_v1.2.tar.gz)
