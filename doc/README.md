@@ -5,4 +5,5 @@
 - B0_fieldmap.pdf
 - GE_B0Mapping_Info.pdf
 - ABCD_epi_pepolar.pdf
+- GE_fMRI_Slice_Timing_Info_Rev5.pdf
 
