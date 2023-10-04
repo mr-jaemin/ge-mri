@@ -1,9 +1,9 @@
 ## `dcm2niix` change list related to GE MR
 This page is intended for providing consolidated change list in [dcm2niix](https://github.com/rordenlab/dcm2niix) for GE MR users from newest to oldest, relative to stable releases.
 ### Download the latest [Stable release version](https://github.com/rordenlab/dcm2niix/releases): 11-April-2023
-The above link provides a pre-compiled stable release version of dcm2niix on Winodows, MacOS, Linux.
+The above link provides a pre-compiled stable release version of dcm2niix on Windows, MacOS, Linux.
 ### Download a pre-compiled [Development version](https://ci.appveyor.com/project/neurolabusc/dcm2niix)
-The above link provides a pre-compiled development version of dcm2niix on Winodows, MacOS, Linux (click on the **Artifacts** button).
+The above link provides a pre-compiled development version of dcm2niix on Windows, MacOS, Linux (click on the **Artifacts** button).
 #### Build the latest Development version
 This is the simplest way to compile dcm2niix on a Linux or MacOS.
 ```
