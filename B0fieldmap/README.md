@@ -25,5 +25,3 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
   - Preprocessing: [Making Fieldmap Images for FEAT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FUGUE/Guide#SIEMENS_and_GEHC_data)
     - including the usage of the `fsl_prepare_fieldmap` command-line tool
   - [B0 unwarping in FEAT Pre-Stats](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide#Pre-Stats)
-- SPM
-- AFNI
