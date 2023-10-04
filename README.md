@@ -10,7 +10,7 @@
       - [HCP Lifespan (tensor1225.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor1225.dat)
   - [GE fMRI Slice Timing information](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_fMRI_Slice_Timing_Info_Rev5.pdf)
     - [GE Diffusion slice timing](https://github.com/rordenlab/dcm2niix/issues/635) 
-  - Distortion Correction for EPI
+  - Distortion Correction for EPI (fMRI/DTI)
     - [B0 fieldmap acuisition/processing](https://github.com/mr-jaemin/ge-mri/tree/main/B0fieldmap)
     - EPI with phase-encoding polarity (AP/PA)
       - [How to get two sets of spin-echo EPI for fMRI a.k.a “SpinEchoFieldMap”](https://github.com/mr-jaemin/ge-mri/blob/main/doc/SE_EPI_fMRI_Fieldmap.pdf)
