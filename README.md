@@ -2,7 +2,7 @@
 - Documentations (How-to)
   - [GE Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_tensor.pdf)
     - Consolidated information for users who want to generate a custom tensor or convert existing table/file to a GE format.
-    - Muti-shell DTI on GE scanners
+    - Multi-shell DTI on GE scanners
     - [Pre-loaded multi-shell diffusion tensor files](https://github.com/mr-jaemin/ge-mri/tree/main/tensor)
       - [ABCD (tensor4321.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor4321.dat)
       - [UK Biobank (tensor521.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor521.dat)
