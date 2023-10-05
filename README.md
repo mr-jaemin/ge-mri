@@ -1,6 +1,6 @@
 ## GE HealthCare MRI research
 - Documentations (How-to)
-  - [GEHC Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_tensor.pdf)
+  - [GEHC Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)
     - Consolidated information for users who want to generate a custom tensor or convert existing table/file to a GEHC format.
     - Multi-shell DTI on GEHC scanners
     - [Pre-loaded multi-shell diffusion tensor files](https://github.com/mr-jaemin/ge-mri/tree/main/tensor)
