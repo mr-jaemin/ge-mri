@@ -1,6 +1,6 @@
 ## GEHC diffusion gradient directions (tensorXX.dat)
 
-I have consolidated [information regarding GE diffusion gradient directions (tensorXX.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)) for those who want to generate a custom tensor or convert existing table/file to a GE format.
+I have consolidated [information regarding GE diffusion gradient directions (tensorXX.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)) for those who want to generate a custom tensor or convert existing table/file to a GEHC format.
 
 ## Pre-loaded multi-shell tensor files
 - [tensor4321](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor4321.dat): ABCD (Adolescent Brain Cognitive Development)
