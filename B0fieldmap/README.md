@@ -7,7 +7,7 @@ The document [GEHC_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaem
 - Type-in PSD: `B0rf` (2D) or `3db0mamp` (3D)
 - The default protocol described in the above document is available to download:
   - [B0 Mapping Protocol (MR29.1)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/B0_Mapping_PSDs_MR29.1_Protocols_v1.2.tar.gz)
-  - Instructions to install the protocol are given in [GE_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_B0Mapping_Info.pdf).
+  - Instructions to install the protocol are given in [GEHC_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_B0Mapping_Info.pdf).
 
 ### DICOM To NIfTI Converter
 We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chris Rorden.
