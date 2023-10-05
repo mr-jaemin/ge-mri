@@ -1,12 +1,13 @@
-## GE B0 fieldmap
+## GEHC B0 fieldmap
 
-The document [GE_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_B0Mapping_Info.pdf) is intended to provide information about B0 field mapping on scanners by GE HealthCare. All these information is expected to help research users to acquire B0 maps and to facilitate users who wish to apply distortion corrections to EPI data (fMRI and DTI) with B0 fieldmap using popular research tools like FSL/AFNI/SPM.
+The document [GE_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_B0Mapping_Info.pdf) is intended to provide information about B0 field mapping on GE HealthCare scanners. All these information is expected to help research users to acquire B0 maps and to facilitate users who wish to apply distortion corrections to EPI data (fMRI and DTI) with B0 fieldmap using popular research tools like FSL/AFNI/SPM.
 
 ### Acquisition
 The document [GE_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_B0Mapping_Info.pdf) provides a detailed instruction how to acquire B0 map using product PSDs.
 - Type-in PSD: `B0rf` (2D) or `3db0mamp` (3D)
-- The default protocol described in the above document is avaialble to download:
+- The default protocol described in the above document is available to download:
   - [B0 Mapping Protocol (MR29.1)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/B0_Mapping_PSDs_MR29.1_Protocols_v1.2.tar.gz)
+  - Instructions to install the protocol are given in [GE_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_B0Mapping_Info.pdf).
 
 ### DICOM To NIfTI Converter
 We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chris Rorden.
