@@ -8,7 +8,7 @@
       - [UK Biobank (tensor521.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor521.dat)
       - [ADNI3 Advanced (tensor1127.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor1127.dat)
       - [HCP Lifespan (tensor1225.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor1225.dat)
-  - [GEHC fMRI Slice Timing information](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GE_fMRI_Slice_Timing_Info.pdf)
+  - [GEHC fMRI Slice Timing information](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_fMRI_Slice_Timing_Info.pdf)
   - [GEHC Diffusion slice timing](https://github.com/rordenlab/dcm2niix/issues/635) 
   - Distortion Correction for EPI (fMRI/DTI)
     - [B0 fieldmap acquisition/processing](https://github.com/mr-jaemin/ge-mri/tree/main/B0fieldmap)
