@@ -15,8 +15,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
   - B0Map_fieldmaphz.json, which includes `EchoTime1` and `EchoTime2`
   - B0Map.nii
   - B0Map.json
-  - 
-- Recommend to use the [latest stable release of dcm2niix](https://github.com/rordenlab/dcm2niix/releases)
+- We recommend to use the [latest stable release of dcm2niix](https://github.com/rordenlab/dcm2niix/releases)
   - Refer to the [change list in dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix) for more details
 
 
