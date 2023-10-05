@@ -14,7 +14,7 @@
     - [B0 fieldmap acquisition/processing](https://github.com/mr-jaemin/ge-mri/tree/main/B0fieldmap)
     - EPI with phase-encoding polarity (AP/PA)
       - [How to get two sets of spin-echo EPI for fMRI a.k.a “SpinEchoFieldMap”](https://github.com/mr-jaemin/ge-mri/blob/main/doc/SE_EPI_fMRI_Fieldmap.pdf)
-      - [Type-in PSDs for EPI (fMRI/Diffusion) with phase-encoding polarity](https://github.com/mr-jaemin/ge-mri/blob/main/doc/GE_EPI_PhaseEncoding.pdf)
+      - [Type-in PSDs for EPI (fMRI/Diffusion) with phase-encoding polarity](https://github.com/mr-jaemin/ge-mri/blob/main/doc/GEHC_EPI_PhaseEncoding.pdf)
     - [ABCD epi_pepolar prototype's flipped issue with solution](https://github.com/mr-jaemin/ge-mri/blob/main/doc/ABCD_epi_pepolar.pdf) 
 - [GEHC MR DICOM tags & BIDS](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
   - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl)   
