@@ -11,7 +11,7 @@ The document [GEHC_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaem
 
 ### DICOM To NIfTI Converter
 We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chris Rorden.
-- `dcm2niix` converts/split a B0 map series into a fieldmap in Hertz and the corresponding magnitude.
+- `dcm2niix` converts/split a B0 map series into a fieldmap image in Hertz and the corresponding magnitude image.
 
   For example:
   
