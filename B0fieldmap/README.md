@@ -12,6 +12,7 @@ The document [GEHC_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaem
 ### DICOM To NIfTI Converter
 We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chris Rorden.
 - `dcm2niix` converts B0 map into a fieldmap in Hertz and the corresponding magnitude:
+![Screenshot 2023-10-06 at 10 18 36 AM](https://github.com/mr-jaemin/ge-mri/assets/72111485/66e83248-b551-49a3-9f3d-0bd901262484)
   - B0Map_fieldmaphz.nii
   - B0Map_fieldmaphz.json, which includes `EchoTime1` and `EchoTime2`
   - B0Map.nii
