@@ -11,12 +11,21 @@ The document [GEHC_B0Mapping_Info.pdf](https://raw.githubusercontent.com/mr-jaem
 
 ### DICOM To NIfTI Converter
 We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chris Rorden.
-- `dcm2niix` converts B0 map into a fieldmap in Hertz and the corresponding magnitude:
-![Screenshot 2023-10-06 at 10 18 36 AM](https://github.com/mr-jaemin/ge-mri/assets/72111485/66e83248-b551-49a3-9f3d-0bd901262484)
-  - B0Map_fieldmaphz.nii
-  - B0Map_fieldmaphz.json, which includes `EchoTime1` and `EchoTime2`
-  - B0Map.nii
-  - B0Map.json
+- `dcm2niix` converts B0 map into a fieldmap in Hertz and the corresponding magnitude.
+
+  For example:
+  
+  ![Screenshot 2023-10-06 at 10 18 36 AM](https://github.com/mr-jaemin/ge-mri/assets/72111485/66e83248-b551-49a3-9f3d-0bd901262484)
+
+  B0Map_fieldmaphz.json reports `Units`, `EchoTime1`, and `EchoTime2`: 
+    ```json
+    {
+      "PulseSequenceName": "3db0map",
+      "Units": "Hz",
+      "EchoTime1": 0.004544,
+      "EchoTime2": 0.006816,
+    }
+    ```
 - We recommend to use the [latest stable release of dcm2niix](https://github.com/rordenlab/dcm2niix/releases)
   - Requires dcm2niix version v1.0.20210410 or later (see [here](https://github.com/rordenlab/dcm2niix/issues/501) for more details)
   - Refer to the [change list in dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
@@ -25,5 +34,19 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
 ### Processing Tools
 - FSL
   - Preprocessing: [Making Fieldmap Images for FEAT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FUGUE/Guide#SIEMENS_and_GEHC_data)
-    - including the usage of the `fsl_prepare_fieldmap` command-line tool
+    - including the usage of the `fsl_prepare_fieldmap` command-line tool (see below)
   - [B0 unwarping in FEAT Pre-Stats](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide#Pre-Stats)
+```sh
+  Usage: fsl_prepare_fieldmap <scanner> <phase_image> <magnitude_image> <out_image> <deltaTE (in ms)> [--nocheck]
+
+  Prepares a fieldmap suitable for FEAT from SIEMENS or GEHC data - saves output in rad/s format
+  <scanner> must be SIEMENS or GEHC_FIELDMAPHZ
+  <phase_image> should be the phase difference for SIEMENS and the fieldmap in HERTZ for GEHC_FIELDMAPHZ
+  <magnitude image> should be Brain Extracted (with BET or otherwise)
+  <deltaTE> is the echo time difference of the fieldmap sequence - find this out form the operator (defaults are *usually* 2.46ms on SIEMENS)
+            (defaults are *usually* 2.304ms for GEHC 2D-B0MAP at 3.0T and 2.272 ms GEHC 3D B0MAP at 3.0T)
+  --nocheck supresses automatic sanity checking of image size/range/dimensions
+
+   e.g. fsl_prepare_fieldmap SIEMENS images_3_gre_field_mapping images_4_gre_field_mapping fmap_rads 2.65
+   e.g. fsl_prepare_fieldmap GEHC_FIELDMAPHZ 3dB0map_fieldmaphz mag_3dB0map fmap_rads 2.272
+```
