@@ -17,7 +17,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
   - B0Map.nii
   - B0Map.json
 - We recommend to use the [latest stable release of dcm2niix](https://github.com/rordenlab/dcm2niix/releases)
-  - Requires dcm2niix version v1.0.20210410 or later (see [Issue#501](https://github.com/rordenlab/dcm2niix/issues/501) for more details)
+  - Requires dcm2niix version v1.0.20210410 or later (see [here](https://github.com/rordenlab/dcm2niix/issues/501) for more details)
   - Refer to the [change list in dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
 
 
