@@ -1,5 +1,10 @@
-## GE HealthCare MRI research
-- Documentations (How-to)
+# GE HealthCare MRI research
+
+## Change List related to GEHC MR
+- [dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
+
+
+## How-to Documentations
   - [GEHC Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)
     - Consolidated information for users who want to generate a custom tensor or convert existing table/file to a GEHC format.
     - Multi-shell DTI on GEHC scanners
@@ -23,6 +28,4 @@
   - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
   - [Acceleration BIDS validation dataset](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
 
-## Change List related to GEHC MR
-- [dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
 
