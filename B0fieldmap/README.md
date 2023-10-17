@@ -37,7 +37,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
     - including the usage of the `fsl_prepare_fieldmap` command-line tool (see below)
     - FSL 6.0.7.1 or later
   - [B0 unwarping in FEAT Pre-Stats](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide#Pre-Stats)
-```
+  ```
   Usage: fsl_prepare_fieldmap <scanner> <phase_image> <magnitude_image> <out_image> <deltaTE (in ms)> [--nocheck]
 
   Prepares a fieldmap suitable for FEAT from SIEMENS or GEHC data - saves output in rad/s format
@@ -50,7 +50,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
 
    e.g. fsl_prepare_fieldmap SIEMENS images_3_gre_field_mapping images_4_gre_field_mapping fmap_rads 2.65
    e.g. fsl_prepare_fieldmap GEHC_FIELDMAPHZ 3dB0map_fieldmaphz mag_3dB0map fmap_rads 2.272
-```
+  ```
    - `Fsl_prepare_fieldmap` (GUI)
 
      ![Screenshot 2023-10-17 at 3 20 59 PM](https://github.com/mr-jaemin/ge-mri/assets/72111485/63147caf-bb8c-41ab-98cc-2d428c3f9fda)
