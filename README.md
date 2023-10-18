@@ -1,10 +1,11 @@
-## GE HealthCare MRI research
+## Welcom to GE HealthCare MRI research documention!
+This page will hopefully provide information for GE HeahthCare MRI research users, with a focus of neuroscience users. 
 
 ### Change List related to GEHC MR
 - [dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
 
 
-### How-to Documentations
+### How-to Documentation
   - [GEHC Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)
     - Consolidated information for users who want to generate a custom tensor or convert existing table/file to a GEHC format.
     - Multi-shell DTI on GEHC scanners
