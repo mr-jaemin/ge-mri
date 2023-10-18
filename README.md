@@ -25,6 +25,7 @@ This page will hopefully provide information for GE HeahthCare MRI research user
 - [GEHC MR DICOM tags & BIDS](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM)
   - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#air-recon-dl)   
   - [Acceleration](https://github.com/mr-jaemin/ge-mri/tree/main/DICOM#acceleration)
+### Sample Datasets
 - [GEHC MR DICOM examplers](https://github.com/mr-jaemin/ge-mri/tree/main/data)
   - [AIR Recon DL](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-air-recon-dl)
   - [Acceleration BIDS validation dataset](https://github.com/mr-jaemin/ge-mri/tree/main/data#ge-acceleration-bids-validation-dataset)
