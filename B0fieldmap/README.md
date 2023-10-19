@@ -33,7 +33,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
 
 ### Processing Tools
 - FSL
-  - Preprocessing: [Making Fieldmap Images for FEAT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FUGUE/Guide#SIEMENS_and_GEHC_data){:target="_blank" rel="noopener"}
+  - Preprocessing: [Making Fieldmap Images for FEAT](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FUGUE/Guide#SIEMENS_and_GEHC_data)
     - including the usage of the `fsl_prepare_fieldmap` command-line tool (see below)
     - FSL 6.0.7.1 or later
   - [B0 unwarping in FEAT Pre-Stats](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide#Pre-Stats)
