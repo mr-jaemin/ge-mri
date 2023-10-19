@@ -15,7 +15,7 @@ This page will hopefully provide information for GE HeahthCare MRI research user
       - [ADNI3 Advanced (tensor1127.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor1127.dat)
       - [HCP Lifespan (tensor1225.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor1225.dat)
     - [Emmanuel Caruyer's web appliation](http://www.emmanuelcaruyer.com/q-space-sampling.php) to design multi-shell sampling schemes
-      - [python script to conver to GE tensor format](https://github.com/naveau/qspacesampling2GE)
+      - [python script to conver to GE tensor format](https://github.com/naveau/qspacesampling2GE) by Mikael Naveau
   - [GEHC fMRI Slice Timing information](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_fMRI_Slice_Timing_Info.pdf)
   - [GEHC Diffusion slice timing](https://github.com/rordenlab/dcm2niix/issues/635) 
   - Distortion Correction for EPI (fMRI/DTI)
