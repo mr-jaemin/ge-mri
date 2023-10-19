@@ -51,6 +51,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
    e.g. fsl_prepare_fieldmap SIEMENS images_3_gre_field_mapping images_4_gre_field_mapping fmap_rads 2.65
    e.g. fsl_prepare_fieldmap GEHC_FIELDMAPHZ 3dB0map_fieldmaphz mag_3dB0map fmap_rads 2.272
   ```
+  - `fsl_prepare_fieldmap` command-line tool ([FSL code for details](https://git.fmrib.ox.ac.uk/fsl/fugue/-/blob/master/fsl_prepare_fieldmap#L199))
    - `Fsl_prepare_fieldmap` (GUI)
 
      ![Screenshot 2023-10-17 at 3 20 59 PM](https://github.com/mr-jaemin/ge-mri/assets/72111485/63147caf-bb8c-41ab-98cc-2d428c3f9fda)
