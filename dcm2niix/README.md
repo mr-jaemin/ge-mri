@@ -13,6 +13,9 @@ make
 ./dcm2niix
 ```
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
+- [Improve GE diffusion bvec greater than 1 for single-axis](https://github.com/rordenlab/dcm2niix/issues/769)
+  - v1.0.20240109+
+  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/852e5eda74b7da308455136763b6db55679cebd0)
 - [Support GE feet first DTI bvec](https://github.com/rordenlab/dcm2niix/issues/737)
   - v1.0.20230807+
   - [Code changes](https://github.com/rordenlab/dcm2niix/pull/736)
