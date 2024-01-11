@@ -27,7 +27,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
     }
     ```
 - We recommend to use the [latest stable release of dcm2niix](https://github.com/rordenlab/dcm2niix/releases)
-  - dcm2niix version v1.0.20210410 or later required (see [here](https://github.com/rordenlab/dcm2niix/issues/501) for more details)
+  - dcm2niix version v1.0.20220720 or later required (see [here](https://github.com/rordenlab/dcm2niix/issues/617) for more details)
   - Refer to the [change list in dcm2niix](https://github.com/mr-jaemin/ge-mri/tree/main/dcm2niix)
 
 
