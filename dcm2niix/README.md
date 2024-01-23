@@ -4,7 +4,7 @@ This page is intended for providing consolidated change list in [dcm2niix](https
 The above link provides a pre-compiled stable release version of dcm2niix on Windows, MacOS, Linux.
 ### Download a pre-compiled [Development version](https://ci.appveyor.com/project/neurolabusc/dcm2niix)
 The above link provides a pre-compiled development version of dcm2niix on Windows, MacOS, Linux (click on the **Artifacts** button).
-See below for compile the latest development version
+See [below](https://github.com/mr-jaemin/ge-mri/blob/main/dcm2niix/README.md#build-the-latest-development-version) for compiling the latest development version
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
 - [Remove `PhaseEncodingDirectionDisplayed` for GE](https://github.com/rordenlab/dcm2niix/issues/779)
   - v1.0.20240123+
