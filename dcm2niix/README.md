@@ -13,6 +13,9 @@ make
 ./dcm2niix
 ```
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
+- [Remove `PhaseEncodingDirectionDisplayed` for GE](https://github.com/rordenlab/dcm2niix/issues/779)
+  - v1.0.20240123+
+  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/96bb7ac5da07e154e89453b0c143db54a8bcb96d)
 - [Improve GE diffusion bvec greater than 1 for single-axis](https://github.com/rordenlab/dcm2niix/issues/769)
   - v1.0.20240109+
   - [Code changes](https://github.com/rordenlab/dcm2niix/commit/852e5eda74b7da308455136763b6db55679cebd0)
