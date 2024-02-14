@@ -6,6 +6,10 @@ The above link provides a pre-compiled stable release version of dcm2niix on Win
 The above link provides a pre-compiled development version of dcm2niix on Windows, MacOS, Linux (click on the **Artifacts** button).
 See [below](https://github.com/mr-jaemin/ge-mri/blob/main/dcm2niix/README.md#build-the-latest-development-version) for compiling the latest development version
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
+- [Improve BidsGuess for GE EPI ](https://github.com/rordenlab/dcm2niix/issues/790)
+  - To detect `Gradient Echo` vs `Spin Echo` with GE EPI
+  - v1.0.20240202+
+  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/4c48bce8f93cd14aea4b78ffeb253bcd460c5158)
 - [Remove `PhaseEncodingDirectionDisplayed` for GE](https://github.com/rordenlab/dcm2niix/issues/779)
   - v1.0.20240123+
   - [Code changes](https://github.com/rordenlab/dcm2niix/commit/96bb7ac5da07e154e89453b0c143db54a8bcb96d)
