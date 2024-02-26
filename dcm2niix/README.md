@@ -1,11 +1,15 @@
 ## `dcm2niix` change list related to GE HealthCare MR
 This page is intended for providing consolidated change list in [dcm2niix](https://github.com/rordenlab/dcm2niix) for GE HealthCare MR users from newest to oldest, relative to stable releases.
-### Download the latest [Stable release version](https://github.com/rordenlab/dcm2niix/releases): 11-April-2023
+### Download the latest [Stable release version](https://github.com/rordenlab/dcm2niix/releases): 2-February-2024
 The above link provides a pre-compiled stable release version of dcm2niix on Windows, MacOS, Linux.
 ### Download a pre-compiled [Development version](https://ci.appveyor.com/project/neurolabusc/dcm2niix)
 The above link provides a pre-compiled development version of dcm2niix on Windows, MacOS, Linux (click on the **Artifacts** button).
 See [below](https://github.com/mr-jaemin/ge-mri/blob/main/dcm2niix/README.md#build-the-latest-development-version) for compiling the latest development version
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
+- [GE UHP/7T Diffusion SliceTiming](https://github.com/rordenlab/dcm2niix/issues/796)
+  - v1.0.20240222+
+  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/987fdfb70e2425d6cce7ac5a053cddf4908d9e59)
+### [Stable releases: version 2-February-2024](https://github.com/rordenlab/dcm2niix/releases/tag/v1.0.20240202)
 - [Improve BidsGuess for GE EPI ](https://github.com/rordenlab/dcm2niix/issues/790)
   - To detect `Gradient Echo` vs `Spin Echo` with GE EPI
   - v1.0.20240202+
