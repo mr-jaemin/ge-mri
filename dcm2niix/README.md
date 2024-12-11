@@ -8,6 +8,10 @@ See [below](https://github.com/mr-jaemin/ge-mri/blob/main/dcm2niix/README.md#bui
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
 
 ### [Stable releases: version 8-December-2024](https://github.com/rordenlab/dcm2niix/releases/tag/v1.0.20241208)
+- [Updated  GE `TotalReadoutTime` Doc](https://github.com/rordenlab/dcm2niix/tree/master/GE#total-readout-time)
+	- Updated documentation `TotalReadoutTime` for GEHC
+	- 2024-08-16
+	- [Code changes](https://github.com/rordenlab/dcm2niix/commit/6e2019412f994f20f6a3b812403bfe00f74edd70)
 - [GE TablePosition tableDelta](https://github.com/rordenlab/dcm2niix/issues/726#issuecomment-2274696551)
 	- BIDS `TablePosition` = the 3rd value of (0043,10b2) – the value of (0019,107f)
 	- v1.0.20240812+
