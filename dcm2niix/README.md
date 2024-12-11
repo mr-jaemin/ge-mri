@@ -1,11 +1,20 @@
 ## `dcm2niix` change list related to GE HealthCare MR
 This page is intended for providing consolidated change list in [dcm2niix](https://github.com/rordenlab/dcm2niix) for GE HealthCare MR users from newest to oldest, relative to stable releases.
-### Download the latest [Stable release version](https://github.com/rordenlab/dcm2niix/releases): 2-February-2024
+### Download the latest [Stable release version](https://github.com/rordenlab/dcm2niix/releases): 8-December-2024
 The above link provides a pre-compiled stable release version of dcm2niix on Windows, MacOS, Linux.
 ### Download a pre-compiled [Development version](https://ci.appveyor.com/project/neurolabusc/dcm2niix)
 The above link provides a pre-compiled development version of dcm2niix on Windows, MacOS, Linux (click on the **Artifacts** button).
 See [below](https://github.com/mr-jaemin/ge-mri/blob/main/dcm2niix/README.md#build-the-latest-development-version) for compiling the latest development version
 ### Change list for GE MR users from newest to oldest, relative to stable releases.
+
+### [Stable releases: version 8-December-2024](https://github.com/rordenlab/dcm2niix/releases/tag/v1.0.20241208)
+- [GE TablePosition tableDelta](https://github.com/rordenlab/dcm2niix/issues/726#issuecomment-2274696551)
+	- BIDS `TablePosition` = the 3rd value of (0043,10b2) – the value of (0019,107f)
+	- v1.0.20240812+
+	-  [Code changes](https://github.com/rordenlab/dcm2niix/commit/0ff9d32fb7cd00a00c24b3edc9bd84da3a9e03e0)
+- [add MAGNITUDE to ImageType for GE data](https://github.com/rordenlab/dcm2niix/pull/826)
+  - 2024-07-24
+  - [Code changes](https://github.com/rordenlab/dcm2niix/commit/69786992e8542b21bf8b0b0261e4c82dc5c9418c)
 - [GE AcquisitionDuration](https://github.com/rordenlab/dcm2niix/issues/808)
   - Added BIDs `AcquisitionDuration`, which is the duration of scan in seconds
   - v1.0.20240327+
