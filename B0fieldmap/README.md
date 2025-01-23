@@ -58,7 +58,7 @@ We recommend to use [`dcm2niix`](https://github.com/rordenlab/dcm2niix) from Chr
      ![Screenshot 2023-10-17 at 3 20 59 PM](https://github.com/mr-jaemin/ge-mri/assets/72111485/63147caf-bb8c-41ab-98cc-2d428c3f9fda)
 - [fMRIPrep](https://fmriprep.org/en/stable/)
   - Tested with the followings:
-  - `3db0mamp`
+  - `3db0map`
   - `dcm2niix`(v1.0.20230807)
   - `Dcm2bids`(2.1.7)
   - `fMRIPrep`(21.0.4)
