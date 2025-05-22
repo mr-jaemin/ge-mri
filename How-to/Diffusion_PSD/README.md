@@ -17,15 +17,12 @@ By default, reconstructed images are interpolated to standard matrix sizes that 
 
 To acquire two scans with opposite PE polarity and native resolution, users can use the type-in PSD `epi2asalt` alongside `epi2as`. See below for detailed examples.
 
-
----
 ## 🧠 Visual Example
 
 | Anterior to Posterior (AP) | Posterior to Anterior (PA) |
 |----------------------------|-----------------------------|
 | ![AP Image](./Brain_AP.png) | ![PA Image](./Brain_AP.png) |
 
----
 
 ## 📂 PSD and `pepolar` CV Reference
 
@@ -36,11 +33,9 @@ To acquire two scans with opposite PE polarity and native resolution, users can 
 | **0** (PA)       | Non-HB    | `epi2`, `epi2as`                               |
 |                  | HyperBand | `epi2altoff`, `epi2asaltoff`                  |
 
----
 
 > ⚠️ `epi2as` variants (e.g., `epi2as`, `epi2asalt`, `epi2asaltoff`) are **NOT compatible with AIR Recon DL**.
 
----
 
 ## ✅ Use Case Examples
 
@@ -70,7 +65,7 @@ Scan with PE-polarity = PA; PSD = epi2asaltoff
 Scan with PE-polarity = AP; PSD = epi2as
 ```
 > ⚠️ `epi2as` variants are **NOT compatible with AIR Recon DL**.
----
+
 
 ## 🔄 Phase-Encoding Polarity (PE Polarity)
 `dcm2niix` automatically converts it into BIDS JSON fields:
@@ -80,7 +75,6 @@ Scan with PE-polarity = AP; PSD = epi2as
 | Anterior to Posterior   | AP             | "Unflipped"                | `-j`                      |
 | Posterior to Anterior   | PA             | "Flipped"                  | `j`                       |
 
----
 
 ## 📦 DICOM Tags
 GEHC DICOM reports PE polarity since **Rx27**
