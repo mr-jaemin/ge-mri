@@ -48,13 +48,13 @@ To acquire two scans with opposite PE polarity and native resolution, users can 
 ### Non-HyperBand (Standard DTI)
 **Standard Resolution (AIR Recon DL-compatible):**
 ```text
-Scan 1: PE-polarity = PA; PSD = epi2
-Scan 2: PE-polarity = AP; PSD = epi2alt
+Scan with PE-polarity = PA; PSD = epi2
+Scan with PE-polarity = AP; PSD = epi2alt
 ```
 **Native Resolution (No interpolation):**
 ```text
-Scan 1: PE-polarity = PA; PSD = epi2as
-Scan 2: PE-polarity = AP; PSD = epi2asalt
+Scan with PE-polarity = PA; PSD = epi2as
+Scan with PE-polarity = AP; PSD = epi2asalt
 ```
 
 ### HyperBand (Multi-Band DTI)
@@ -65,8 +65,8 @@ Scan with PE-polarity = AP; type-in PSD = epi2
 ```
 **Native Resolution (No interpolation):**
 ```text
-Scan with PA: PE-polarity = PA; PSD = epi2asaltoff
-Scan with AP: PE-polarity = AP; PSD = epi2as
+Scan with PE-polarity = PA; PSD = epi2asaltoff
+Scan with PE-polarity = AP; PSD = epi2as
 ```
 ---
 

@@ -6,6 +6,7 @@ This page will hopefully provide information for GE HeahthCare MRI research user
 
 
 ### How-to Documentation
+  - [GEHC Diffusion Phase-Encoding Polarity & No Interpolation](https://github.com/mr-jaemin/ge-mri/tree/main/How-to/Diffusion_PSD)
   - [GEHC Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)
     - Consolidated information for users who want to generate a custom tensor or convert existing table/file to a GEHC format.
     - [New locations of diffusion tensor files from MR30.0](https://github.com/mr-jaemin/ge-mri/blob/main/tensor/README.md#locations-of-diffusion-tensor-files)
