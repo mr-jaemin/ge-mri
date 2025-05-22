@@ -45,8 +45,8 @@ To acquire two scans with opposite PE polarity and native resolution, users can 
 ## ✅ Use Case Examples
 
 **Goal: Acquire two scans with opposite PE polarity**
-### Non-HyperBand (Standard DTI)
-**Standard Resolution (AIR Recon DL-compatible):**
+### Non-HyperBand (Standard Diffusion)
+**Standard Resolution:**
 ```text
 Scan with PE-polarity = PA; PSD = epi2
 Scan with PE-polarity = AP; PSD = epi2alt
@@ -56,9 +56,10 @@ Scan with PE-polarity = AP; PSD = epi2alt
 Scan with PE-polarity = PA; PSD = epi2as
 Scan with PE-polarity = AP; PSD = epi2asalt
 ```
+> ⚠️ `epi2as` variants are **NOT compatible with AIR Recon DL**.
 
-### HyperBand (Multi-Band DTI)
-**Standard Resolution (AIR Recon DL-compatible):**
+### HyperBand (Multi-Band Diffusion)
+**Standard Resolution:**
 ```text
 Scan with PE-polarity = PA; type-in PSD = epi2altoff
 Scan with PE-polarity = AP; type-in PSD = epi2
@@ -68,6 +69,7 @@ Scan with PE-polarity = AP; type-in PSD = epi2
 Scan with PE-polarity = PA; PSD = epi2asaltoff
 Scan with PE-polarity = AP; PSD = epi2as
 ```
+> ⚠️ `epi2as` variants are **NOT compatible with AIR Recon DL**.
 ---
 
 ## 🔄 Phase-Encoding Polarity (PE Polarity)
