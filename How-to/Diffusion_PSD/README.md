@@ -1,4 +1,4 @@
-# GE MRI Diffusion PSD Guide: Phase-Encoding Polarity & Native Resolution
+# GEHC MRI Diffusion PSD: Phase-Encoding Polarity & Native Resolution
 
 This guide explains how to manage **phase-encoding polarity** and **native resolution reconstruction** in GE HealthCare diffusion EPI using type-in PSDs such as `epi2alt`, `epi2as`, `epi2asalt`.
 
