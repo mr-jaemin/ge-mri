@@ -21,7 +21,7 @@ To acquire two scans with opposite PE polarity and native resolution, users can 
 
 | Anterior to Posterior (AP) | Posterior to Anterior (PA) |
 |----------------------------|-----------------------------|
-| ![AP Image](./Brain_AP.png) | ![PA Image](./Brain_AP.png) |
+| ![AP Image](./Brain_AP.png) | ![PA Image](./Brain_PA.png) |
 
 
 ## 📂 PSD and `pepolar` CV Reference
