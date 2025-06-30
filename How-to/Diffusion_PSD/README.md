@@ -3,13 +3,17 @@
 This guide explains how to manage **phase-encoding polarity** and **native resolution reconstruction** in GE HealthCare diffusion EPI using type-in PSDs such as `epi2alt`, `epi2as`, `epi2asalt`.
 
 ## Phase-Encoding Polairty
-In GE HealthCare MRI systems, the phase-encoding direction is controlled internally by a research control variable (CV) called `pepolar`, which determines whether the scan uses posterior-to-anterior (PA) or anterior-to-posterior (AP) polarity for phase-encoding direction
+In GE HealthCare MRI systems, on the **product** sequences, the phase-encoding direction is controlled internally by a research control variable (CV) called `pepolar`, which determines whether the scan uses posterior-to-anterior (PA) or anterior-to-posterior (AP) polarity for phase-encoding direction
 
 By default:
 - Non-HyperBand (non-HB) scans use PA polarity (`pepolar` = 0)
 - HyperBand (HB) scans use AP polarity (`pepolar` = 1)
 
 To simplify scan setup, a family of type-in PSDs—such as `epi2alt`—was introduced in clinical mode. These PSDs automatically configure the appropriate `pepolar` value internally, eliminating the need for manual CV adjustments and allowing the scan setup to be saved as part of a protocol.
+
+
+> **Note:** In the case of the research study using **ABCD ATSM**, users should refer to the ABCD user manual or contact your regional research support team.
+
 
 ## Native Resolution (No Interpolation)
 By default, reconstructed images are interpolated to standard matrix sizes that are powers of 2, such as 256, 512, or 1024. To disable interpolation and reconstruct to the native resolution as prescribed in the scan protocol, users can select type-in PSD `epi2as`
