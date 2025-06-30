@@ -7,8 +7,10 @@ This page will hopefully provide information for GE HeahthCare MRI research user
 
 ### How-to Documentation
   - [GEHC Diffusion Phase-Encoding Polarity & No Interpolation](https://github.com/mr-jaemin/ge-mri/tree/main/How-to/Diffusion_PSD)
+    - This guide explains how to manage phase-encoding polarity and native resolution in reconstruction in GE HealthCare diffusion EPI using type-in PSDs such as epi2alt, epi2as, epi2asalt. 
   - [GEHC Diffusion tensor (gradient directions)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/doc/GEHC_tensor.pdf)
     - Consolidated information for users who want to generate a custom tensor or convert existing table/file to a GEHC format.
+    - [GEtensor-app](https://getensor.streamlit.app/) is a web-based tool created with Python and Streamlit to facilitate the viewing and conversion of GE diffusion tensor files in a user-friendly format. 
     - [New locations of diffusion tensor files from MR30.0](https://github.com/mr-jaemin/ge-mri/blob/main/tensor/README.md#locations-of-diffusion-tensor-files)
     - [Pre-loaded multi-shell diffusion tensor files on GEHC scanners](https://github.com/mr-jaemin/ge-mri/tree/main/tensor)
       - [ABCD (tensor4321.dat)](https://raw.githubusercontent.com/mr-jaemin/ge-mri/main/tensor/tensor4321.dat)
